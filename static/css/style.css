@@ -1,135 +1,154 @@
 @font-face {
-  font-family: "L4";
-  src: url("/content/font/L4.ttf");
-}
-
-h1 {
-  font-family: "L4";
-  color: white;
-  font-size: 30pt;
-  margin-top:5px ;
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
-  text-align: center;
-
-}
-
-h2 {
+    font-family: "L4";
+    src: url("/content/font/L4.ttf");
+  }
+  
+  h1 {
     font-family: "L4";
     color: white;
-    font-size: 30pt;
-    margin-top:5px ;
+    font-size: 10vmin;
+  margin-bottom: 20vh;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     text-align: center;
+
   
   }
   
-
-#main {
-position: absolute;
-display: flex;
-  top: 0;
-  left: 0;
-width: 240px;
-height: 240px;
-background-color: gray;
-
-}
-
-
-#container{
+  h2 {
+      font-family: "L4";
+      color: white;
+      font-size:10vmin;
+margin-bottom: 20vh;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      text-align: center;
     
-    top:0;
-    left: 0%;
-    width: 230px;
-    height: 230px;
-    margin: 5px;
-
-
-
-
-}
-
-
-#container-curves{
-    float: left;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 112.5px;
-    margin-right: 5px;
+    }
     
-
-}
-
-.curves{
-    width: 112.5px;
-    height: 112.5px;
-    
-}
-
-#container-speed{
-float: right;
-    top:0;
-    right: 0;
-    height: 100%;
-    width: 112.5px;
   
-
-}
-
-.speed{
+  #main {
+  position: absolute;
+  display: flex;
     top: 0;
     left: 0;
-    width: 112.5px;
-    height: 112.5px;
+  width: 100vw;
+  height: 100vh;
+
+  
+  }
+  
+  
+  #container{
+      
+      top:0;
+      left: 0%;
+      width: 95vw;
+      height: 95vh ;
+      margin: auto;
+
+ 
+      overflow: hidden;
+  
+  
+  
+  }
+  
+  
+  #container-curves{
+    position: relative;  
+    float: left;
+      top:0;
+      left: 0;
+      height: 100%;
+      width: 45%;
+      
+ 
+      
+  
+  }
+  
+  .curves{
+      width: 100%;
+      height: auto;
+      
+  }
+  
+  #container-speed{
+  position: relative;
+    float: right;
+      top:0;
+      right: 0;
+      height: 100%;
+      width: 45%;
+    
+    
+  
+  }
+  
+  .speed{
+    
+      width: 100%;
+      height: auto;
+  
+
+  
+  }
+  
+  
 
 
 
 
-}
 
 
-#curves-section {
-  position:absolute;
-  height: 100%;
-  flex-basis: 45vw;
-  text-align: center; 
-
-}
 
 
-#speed-section {
-  position: absolute;
-  height: 100%;
-  flex-basis: 45vw;
-  text-align: center;
-}
 
-curves {
-  display: flex;
-  width: 50%;
-  height: 200px;
-  margin: auto;
-  border-radius: 10px;
-  border: 3px dashed #1c87c9;
-  align-items: center;
-  justify-content: center;
-  width: 5vw;
-  height: auto;
-  float: right;
 
-  text-align: center;
-  vertical-align: middle;
-}
 
-speed {
-  width: 5vw;
-  height: auto;
-  float: left;
 
-  vertical-align: middle;
-}
+
+  #curves-section {
+    position:absolute;
+    height: 100%;
+    margin-bottom: 45vw;
+    text-align: center; 
+  
+  }
+  
+  
+  #speed-section {
+    position: absolute;
+    height: 100%;
+  
+    text-align: center;
+  }
+  
+  curves {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px dashed #1c87c9;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: auto;
+    float: right;
+  
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  speed {
+    width: 5vw;
+    height: auto;
+    float: left;
+  
+    vertical-align: middle;
+  }
+  
