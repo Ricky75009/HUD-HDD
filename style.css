@@ -1,13 +1,19 @@
 @font-face {
     font-family: "L4";
-    src: url("/content/font/L4.ttf");
+    src: url("https://cdn.glitch.global/095851cb-88eb-4ce5-909f-0a88d21849d2/L4.ttf?v=1659435135470");
   }
   
+
+root{
+  --margin-bottom:0vh;
+}
+
   h1 {
     font-family: "L4";
     color: white;
     font-size: 10vmin;
   margin-bottom: 20vh;
+    margin-top:7vh;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -21,6 +27,7 @@
       color: white;
       font-size:10vmin;
 margin-bottom: 20vh;
+    margin-top:7vh;
       margin-left: auto;
       margin-right: auto;
       width: fit-content;
@@ -70,9 +77,14 @@ margin-bottom: 20vh;
   
   }
   
+
+#id-curve{
+  margin-bottom: var(--margin-bottom);
+}
   .curves{
       width: 100%;
       height: auto;
+    
       
   }
   
